@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'dosis';
+    src: url(./font/Dosis-ExtraLight.ttf) format('truetype'); 
+}
+@font-face {
+    font-family: 'mohamad';
+    src: url(./font/Caveat-Medium.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'moham@ad';
+    src: url(./font/Caveat-Bold.ttf);
+}
+* {
+    padding: 5px;
+    margin: 5px;
+    box-sizing: border-box;
+    
+}
+header{
+    text-align: center;
+}
+nav{
+    text-align: center;
+    background-color: rgb(20, 182, 182);
+    width: 100%;
+    height: 100%;
+    margin: 20px px 10px 10px;
+    padding: 20px;
+    font-family: 'dosis';
+    
+    
+}
+nav a {
+    text-decoration: none;
+    display: inline-block;
+    line-height: 30px;
+    font-size: 20px;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    min-height: 10px;
+}
+h2{
+    
+    color: rgb(233, 233, 233);
+    font-family: 'mohamad';
+    text-align: left;
+}
+.description {
+    text-align: center;
+    background-color: rgb(158, 95, 160);
+    color: whitesmoke;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-family: 'moham@ad';
+    font-size: 1.5em;
+    text-align: left;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+}
+img {
+    width: 50%;
+    height: 50%;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+
+.box{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    border-radius: 30px;
+    align-items: center;
+    background-color: orange;
+    font-size: 20px;
+    cursor: pointer;
+}
+.box a{
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: chartreuse;
+    font-size: 20px;
+    color: #ef476f
+}
+nav a:hover, nav a:visited, nav a:active {
+    color: white;
+    padding: 8px;
+    background-color: rgb(44, 77, 77);
+    margin: 5px;
+}
+.box:hover {
+    background-color: rgb(221, 45, 45);
+    
+}
+.box a:hover {
+    background-color: white;
+}
+table{
+    width:100%;
+    border-collapse:collapse;
+   }
+   
+   table,th,td{
+    border:2px solid black;
+   }
+   
+   td{
+    text-align:center;
+    padding:5px;
+   }
+   @media screen and (min-width: 800px) {
+    .container {
+      margin: 1em 2em;
+    }
+  }
